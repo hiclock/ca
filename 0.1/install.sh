@@ -24,7 +24,5 @@ cd $GOPATH/src/github.com/hyperledger/fabric-ca
 make fabric-ca-server
 make fabric-ca-client
 cp bin/fabric-ca-client /usr/bin/
+cp bin/fabric-ca-server /usr/bin/
 
-mkdir -p /opt/app/fabric-ca/server
-cd /opt/app/fabric-ca/server/
-cp $GOPATH/src/github.com/hyperledger/fabric-ca/bin/fabric-ca-server .
